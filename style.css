@@ -1,0 +1,93 @@
+body{
+    margin-left: 35px;
+    margin-right: 35px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#leftnav{
+    width: 50%;
+    float: left;
+}
+
+#leftnav div{
+    display: inline-block;
+    line-height: 0px;
+    margin-bottom: 0;
+}
+#rightnav{
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 375px;
+    top: 10px;
+}
+
+#rightnav ul li{
+    display: inline-block;
+}
+#p1{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 30px;
+}
+#p2{
+    font-size: 8px;
+}
+
+hr{
+    border-top: 5px solid gray;
+    clear: both;
+    position: relative;
+    top: 15px;
+}
+
+
+#first{
+    position: relative;
+    top: 35px;
+}
+
+#leftTitle{
+    width: 50%;
+    float: left;
+    line-height: 0;
+}
+
+#title{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+#date{
+    color: gray;
+    font-size: 10px;
+}
+
+
+#rightPrint{
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 590px;
+    top: 40px;
+    font-size: 10px;
+    color: gray;
+}
+
+#rightPrint p{
+    display: inline;
+}
+
+#second img{
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+#third p{
+    font-size: 20px;
+    font-family: 'Kiwi Maru', serif;
+    position: relative;
+    top: 40px;
+    margin-top: 35px;
+}
+}
